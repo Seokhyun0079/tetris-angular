@@ -44,6 +44,18 @@
   height: 100%;
 }
 
+.stoped-block {
+  background-color: #262327;
+  width: 10%;
+  height: 100%;
+}
+
+.block {
+  background-color: #742525;
+  width: 10%;
+  height: 100%;
+}
+
 .empty {
   background-color: #000000 !important;
   width: 10%;
