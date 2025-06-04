@@ -1,0 +1,10 @@
+<h1>Tetris</h1>
+<div class="tetris-container">
+  <div *ngFor="let row of board; let i = index" class="row">
+    <div
+      *ngFor="let cell of row; let j = index"
+      [class.wall]="cell === 3"
+      [class.empty]="cell === 0"
+    ></div>
+  </div>
+</div>

@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { TetrisContainerComponent } from './tetris-container.component';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, TetrisContainerComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
